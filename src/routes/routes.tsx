@@ -15,7 +15,7 @@ function MyRoutes() {
 				<Route path='/cart' element={<Cart />} />
 				<Route path='/brands' element={<Brands />} />
 				<Route path='/on-sale' element={<Offers />} />
-				<Route path='*' element={<NotFound />} />
+				<Route path='/*' element={<NotFound />} />
 			</Routes>
 		</Router>
 	)
